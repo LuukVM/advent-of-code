@@ -13,8 +13,6 @@ for x in range(len(values)):
         verticalPosition += int(values[x + 1]) * aim
     elif values[x] == "up":
         aim -= int(values[x + 1])
-        if aim < 0:
-            aim = 0
     elif values[x] == "down":
         aim += int(values[x + 1])
 
