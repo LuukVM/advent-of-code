@@ -1,4 +1,4 @@
-file = open("values.txt", "r")
+file = open("Day 1/values.txt", "r")
 
 values = file.read().splitlines()
 
